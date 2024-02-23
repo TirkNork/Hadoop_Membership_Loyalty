@@ -27,7 +27,7 @@ This project will use Cloudera Hadoop via Docker container and using GCP compute
 5. Run docker by command: docker run --hostname=quickstart.cloudera --privileged=true -it -p 8888:8888 -p8080:8080 -p 7180:7180 -p 88:88/udp -p 88:88 mikelemikelo/cloudera-spark:latest/usr/bin/docker-quickstart-light
 6. Start Cloudera Manager by command sudo /home/cloudera/cloudera-manager --express && service ntpd start
 7. Use public IP of VM and port 7180 to connect Cloudera Manager (user:cloudera, password:cloudera)
-8. Add service Flume and start Hadoopcluster
+8. Add service Flume and start Hadoop cluster
 9. Connect Cloudera HUE with public IP of VM and port 8888
 
 ## Files in this project
