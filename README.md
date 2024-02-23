@@ -7,14 +7,14 @@ The objective is to merge these datasets to generate records for cafe membership
 
 
 - Batch Layer
-  - Ingest customer data in text file format into the HDFS,
-  - Utilized SparkSQL for data cleansing
+  - Ingest customer data in text file format into the HDFS.
+  - Utilized SparkSQL for data cleansing.
   - Loaded data into Apache Hive.
 - Real-time Layer
   - Developed a script to generate transaction log files as a data source for the real-time layer pipeline.
   - Utilized Apache Flume for streaming ingestion of transaction data into the HDFS.
-  - Employed  Spark Streaming for real-time data cleansing and
-  - Loaded the processed data into Apache Hive
+  - Employed  Spark Streaming for real-time data cleansing.
+  - Loaded the processed data into Apache Hive.
 - Integrated transaction and customer data to generate café membership loyalty records in Apache Hive.
 - Orchestrated the pipeline using Apache Oozie.
 
