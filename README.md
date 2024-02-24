@@ -3,6 +3,8 @@ The purpose of this project is to showcase proficiency in Batch and Real-time Da
 This involves the ingestion of customer data from cafes into the batch layer and the ingestion of transaction data from cafes into the real-time layer. 
 The objective is to merge these datasets to generate records for cafe membership loyalty.
 
+[This project is part of Online course: Road to Data Engineer 2.0]
+
 ![Alt text](img/overview.png?raw=true "Title")
 
 
